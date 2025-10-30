@@ -16,7 +16,6 @@ st.markdown(
         line-height: 1.6;
         max-width: 900px;
         margin: 0 auto;
-        color: #111827;
     ">
 
     <p>
@@ -258,6 +257,7 @@ Comprender el tipo y escala de los datos permite elegir las técnicas estadísti
 y representar la información correctamente en gráficos o análisis posteriores.
 
 """)
+
 
 
 
