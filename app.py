@@ -7,17 +7,50 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Tipos de Datos Interactivos", page_icon="📊", layout="centered")
 
 st.title("📊 Tipos y Escalas de Medida de los Datos")
-st.write("""
-En este cuestionario vas a encontrar un material **interactivo y práctico** que te ayudará a comprender qué son los **tipos de datos**, cómo se **clasifican** y por qué eso es clave para decidir **qué operaciones y gráficos** podemos usar en cada caso.
 
-Este recurso te servirá como **material de estudio complementario** para reforzar tus conocimientos y prepararte para **futuros exámenes o ejercicios prácticos**.  
+st.markdown(
+    """
+    <div style="
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.6;
+        max-width: 900px;
+        margin: 0 auto;
+        color: #111827;
+    ">
 
-A través de pequeñas preguntas y visualizaciones dinámicas, aprenderás a distinguir entre variables **cualitativas y cuantitativas**, y entre sus diferentes **escalas de medición** (nominal, ordinal, de intervalo y de razón).
+    <p>
 
-👉 Al responder correctamente, no solo sabrás si acertaste, sino que también recibirás una **explicación detallada** con ejemplos y gráficos ilustrativos.
+    En este cuestionario vas a encontrar un material <strong>interactivo y práctico</strong>
+    que te ayudará a comprender qué son los <strong>tipos de datos</strong>, cómo se
+    <strong>clasifican</strong> y por qué eso es clave para decidir <strong>qué operaciones y gráficos</strong>
+    podemos usar en cada caso.
+    </p>
 
-Explora, estudia y disfruta. Si encuentras algun error o tienes alguna duda puedes escribirme a 📧 **carlosdl@uninorte.edu.co**. 
-""")
+    <p>
+    Este recurso te servirá como <strong>material de estudio complementario</strong> para reforzar tus
+    conocimientos y prepararte para <strong>futuros exámenes o ejercicios prácticos</strong>.
+    </p>
+
+    <p>
+    A través de pequeñas preguntas y visualizaciones dinámicas, aprenderás a distinguir entre variables
+    <strong>cualitativas y cuantitativas</strong>, y entre sus diferentes <strong>escalas de medición</strong>
+    (nominal, ordinal, de intervalo y de razón).
+    </p>
+
+    <p>
+    👉 Al responder correctamente, no solo sabrás si acertaste, sino que también recibirás una
+    <strong>explicación detallada</strong> con ejemplos y gráficos ilustrativos.
+    </p>
+
+    <p>
+    Explora, estudia y disfruta. Si encuentras algún error o tienes alguna duda puedes escribirme al correo
+    <a href="mailto:carlosdl@uninorte.edu.co">carlosdl@uninorte.edu.co</a>.
+    </p>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 
 # --- Función general de pregunta ---
 def pregunta(
@@ -225,5 +258,6 @@ Comprender el tipo y escala de los datos permite elegir las técnicas estadísti
 y representar la información correctamente en gráficos o análisis posteriores.
 
 """)
+
 
 
