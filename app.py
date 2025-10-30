@@ -8,8 +8,16 @@ st.set_page_config(page_title="Tipos de Datos Interactivos", page_icon="📊", l
 
 st.title("📊 Tipos y Escalas de Medida de los Datos")
 st.write("""
-Este módulo interactivo te permitirá **reconocer los distintos tipos y escalas de medida de los datos**, 
-a través de ejemplos, retroalimentación y gráficos explicativos.
+# Bienvenido al módulo interactivo: *Tipos y escalas de medida de los datos* 
+En esta aplicación vas a encontrar un material **interactivo y práctico** que te ayudará a **comprender los fundamentos de la estadística**:  
+qué son los **tipos de datos**, cómo se **clasifican** y por qué eso es clave para decidir **qué operaciones y gráficos** podemos usar en cada caso.
+
+Este recurso te servirá como **material de estudio complementario** para reforzar tus conocimientos y prepararte para **futuros exámenes o ejercicios prácticos**.  
+A través de pequeñas preguntas y visualizaciones dinámicas, aprenderás a distinguir entre variables **cualitativas y cuantitativas**, y entre sus diferentes **escalas de medición** (nominal, ordinal, de intervalo y de razón).
+
+👉 Al responder correctamente, no solo sabrás si acertaste, sino que también recibirás una **explicación detallada** con ejemplos y gráficos ilustrativos.
+
+Así que relájate, explora, y prepárate para descubrir cómo **los datos pueden hablar… cuando los sabes interpretar**. 
 """)
 
 # --- Función general de pregunta ---
@@ -216,4 +224,5 @@ st.info("""
 💬 **Conclusión:**  
 Comprender el tipo y escala de los datos permite elegir las técnicas estadísticas adecuadas 
 y representar la información correctamente en gráficos o análisis posteriores.
+
 """)
