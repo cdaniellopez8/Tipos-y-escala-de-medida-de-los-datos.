@@ -160,25 +160,7 @@ pregunta(
 )
 
 pregunta(
-    "3️⃣ ¿Cuál de las siguientes variables es nominal?",
-    ["Satisfacción (baja, media, alta)", "Género", "Puntaje en examen", "Temperatura en °C"],
-    "Género",
-    "nominal",
-    "Las variables nominales clasifican **sin jerarquía**: no hay orden entre las categorías.",
-    "En las nominales, las categorías no tienen orden (ej. masculino ≠ femenino en magnitud)."
-)
-
-pregunta(
-    "4️⃣ ¿Cuál de las siguientes variables es ordinal?",
-    ["Temperatura", "Color favorito", "Nivel educativo", "Edad"],
-    "Nivel educativo",
-    "ordinal",
-    "Las variables ordinales tienen **categorías con un orden lógico** (bajo < medio < alto).",
-    "En las ordinales sí hay jerarquía, aunque no se puede medir la distancia exacta entre niveles."
-)
-
-pregunta(
-    "5️⃣ ¿Cuál de las siguientes variables es discreta?",
+    "3️⃣ ¿Cuál de las siguientes variables es discreta?",
     ["Número de hijos", "Peso corporal", "Altura", "Temperatura"],
     "Número de hijos",
     "discreta",
@@ -187,12 +169,30 @@ pregunta(
 )
 
 pregunta(
-    "6️⃣ ¿Cuál de las siguientes variables es continua?",
+    "4️⃣ ¿Cuál de las siguientes variables es continua?",
     ["Número de hermanos", "cantidad de vacas en un establo", "Altura", "Categoría de producto"],
     "Altura",
     "continua",
     "Las variables continuas pueden tomar **infinitos valores dentro de un rango** (ej. 1.75 m).",
     "Las continuas permiten valores decimales o fraccionarios, no solo enteros."
+)
+
+pregunta(
+    "5️⃣ ¿Cuál de las siguientes variables es nominal?",
+    ["Satisfacción (baja, media, alta)", "Género", "Puntaje en examen", "Temperatura en °C"],
+    "Género",
+    "nominal",
+    "Las variables nominales clasifican **sin jerarquía**: no hay orden entre las categorías.",
+    "En las nominales, las categorías no tienen orden (ej. masculino ≠ femenino en magnitud)."
+)
+
+pregunta(
+    "6️⃣ ¿Cuál de las siguientes variables es ordinal?",
+    ["Temperatura", "Color favorito", "Nivel educativo", "Edad"],
+    "Nivel educativo",
+    "ordinal",
+    "Las variables ordinales tienen **categorías con un orden lógico** (bajo < medio < alto).",
+    "En las ordinales sí hay jerarquía, aunque no se puede medir la distancia exacta entre niveles."
 )
 
 pregunta(
@@ -257,6 +257,7 @@ Comprender el tipo y escala de los datos permite elegir las técnicas estadísti
 y representar la información correctamente en gráficos o análisis posteriores.
 
 """)
+
 
 
 
