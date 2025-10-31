@@ -33,7 +33,7 @@ st.markdown(
 
     <p>
     A través de pequeñas preguntas y visualizaciones dinámicas, aprenderás a distinguir entre variables
-    <strong>cualitativas y cuantitativas</strong>, y entre sus diferentes <strong>escalas de medición</strong>
+    <strong>cualitativas y cuantitativas</strong> y entre sus diferentes <strong>escalas de medición</strong>
     (nominal, ordinal, de intervalo y de razón).
     </p>
 
@@ -257,6 +257,7 @@ Comprender el tipo y escala de los datos permite elegir las técnicas estadísti
 y representar la información correctamente en gráficos o análisis posteriores.
 
 """)
+
 
 
 
